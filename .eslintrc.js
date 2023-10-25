@@ -18,6 +18,7 @@ module.exports = {
     'react'
   ],
   'rules': {
+    'react/no-unknown-property': 'off',
     'no-unused-vars': ['warn'],
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
