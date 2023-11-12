@@ -7,7 +7,7 @@ import LightCube from './LightCube';
 const CubeContainer = () => {
   // get current theme
   const theme = useTheme();
-  console.log(theme.theme);
+
   return (
     <div className='hover:cursor-grab'>
       <Canvas camera={{ fov:25, position:[7,7,7] }}>
