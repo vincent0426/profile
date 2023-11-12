@@ -60,7 +60,7 @@ const Hero = () => {
             </motion.p>
             <p className='mt-4 text-base font-medium'>As an explorer & practitioner living in the software-driven world, I am passionate about building products that solve real-world problems.</p>
             <div className='flex items-center self-start mt-16'>
-              <Link 
+              {/* <Link 
                 download={true}
                 href="/dummy.pdf" 
                 target="_blank" 
@@ -69,11 +69,11 @@ const Hero = () => {
                   dark:bg-light dark:text-dark dark:hover:bg-light/70 dark:hover:text-light dark:hover:border-light/70 p-2.5 pl-6 pr-5 rounded-lg text-lg font-semibold border-2 border-solid transition duration-300 ease-in-out'
               >
                   Resume <LinkArrow className="w-6 ml-1" />
-              </Link>
+              </Link> */}
               <Link 
-                href="mailto:0426vincent@gmail.com" 
+                href="mailto:hi@vincent0426.com" 
                 target="_blank"
-                className='ml-8 text-lg font-medium capitalize text-dark underline hover:text-dark/40 dark:text-light dark:hover:text-light/70 transition duration-300 ease-in-out'
+                className='text-lg font-medium capitalize text-dark underline hover:text-dark/40 dark:text-light dark:hover:text-light/70 transition duration-300 ease-in-out'
               >
                     Contact Me
               </Link>
