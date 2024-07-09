@@ -4,12 +4,14 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Montserrat } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vincent Hsieh",
   description: "Personal website of Vincent Hsieh",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
