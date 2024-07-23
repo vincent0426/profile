@@ -84,7 +84,7 @@ export const projects = [
     des: "A ride-sharing application connecting employees to share rides to work for companies.",
     img: "/tuber.png",
     iconLists: ["/go.png", "/k8s.png", "/docker.png", "/gcp.png"],
-    link: "https://github.com/TSMC-Uber/server",
+    link: "https://github.com/vincent0426/tuber",
   },
   {
     id: 3,
